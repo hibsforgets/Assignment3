@@ -4,7 +4,7 @@
 
 #define TILE_WIDTH 32
 #define J 1000
-#define K 900
+#define K 1100
 #define L 1000
 
 __global__ void matrixMultiplication(float *A, float *B, float *C, int rows_A, int cols_A, int cols_B) {

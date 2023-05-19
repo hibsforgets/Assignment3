@@ -16,9 +16,9 @@ __global__ void matrixMultiplication(float *A, float *B, float *C, int J, int K,
 }
 
 int main() {
-    int J = 1100;
-    int K = 1000;
-    int L = 1100;
+    int J = 1000;
+    int K = 1100;
+    int L = 1000;
 
     float *h_A = (float *)malloc(J * K * sizeof(float));
     float *h_B = (float *)malloc(K * L * sizeof(float));
